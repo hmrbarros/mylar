@@ -33,6 +33,7 @@ import urllib2
 import email.utils
 import datetime
 from wsgiref.handlers import format_date_time
+import shutil
 
 def search_init(ComicName, IssueNumber, ComicYear, SeriesYear, Publisher, IssueDate, StoreDate, IssueID, AlternateSearch=None, UseFuzzy=None, ComicVersion=None, SARC=None, IssueArcID=None, mode=None, rsscheck=None, ComicID=None, manualsearch=None, filesafe=None):
     unaltered_ComicName = None
